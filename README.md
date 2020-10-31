@@ -10,6 +10,6 @@ mynormal = np.random.normal(0,1)
 
 In other words, this function will generate a random variable from a normal distribution that has expectation 0 and variance 1.  What, you might ask, do we do if we would like a normal random variable from a distribution with expectation a and variance b?  The answer is quite straightforward we perform a standardising transformation and thus convert a normal random variable, Z, with expectation 0 and variable 1 into a normal random variable, X, with expectation a and variance b using:
 
-![](https://render.githubusercontent.com/render/math?math=X=\sqrt{b}Z+a)
+![](https://render.githubusercontent.com/render/math?math=X=\sqrt{b}Z%B5a)
 
 Your task here is  to write a function called `normal` that takes two parameters `mu` and `sigma2` as input.  This function should return a normal random variable from a normal distribution with expectation `mu` and with variance `sigma2`.  The remaining code in the cell on the left will ensure that a graph is drawn showing the various values a sample of 100 of these variables take.
